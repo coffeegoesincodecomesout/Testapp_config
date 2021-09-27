@@ -13,7 +13,7 @@ items:
   spec:
     host: testapp-testapp.apps-crc.testing
     port:
-      targetPort: 8080-tcp
+      targetPort: 9000-tcp
     to:
       kind: Service
       name: testapp
